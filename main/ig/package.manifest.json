@@ -1,7 +1,7 @@
 {
   "version" : "0.1.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20250307164120",
+  "date" : "20250307164823",
   "name" : "ans.fhir.fr.ig-test",
   "jurisdiction" : "urn:iso:std:iso:3166#FR"
 }

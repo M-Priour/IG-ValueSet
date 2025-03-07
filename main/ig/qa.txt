@@ -3,7 +3,7 @@ ExampleIG : Validation Results
 
 err = 4, warn = 5, info = 3
 IG Publisher Version: 1.8.16
-Generated Fri Mar 07 16:42:12 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.ig-test#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/ig-test)
+Generated Fri Mar 07 16:49:19 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.ig-test#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/ig-test)
  Build Errors : 0 / 3 / 0
  /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/CodeSystem-TRE-R208-ClasseAge : 2 / 1 / 4
  /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.ig-test : 0 / 0 / 1
