@@ -1,0 +1,30 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/ig-test/ValueSet/1.2.250.1.213.1.1.5.661",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "JDV_AbsentOrUnknownAllergy_CISIS",
+      "title" : "JDV_AbsentOrUnknownAllergy_CISIS",
+      "description" : "JDV_AbsentOrUnknownAllergy_CISIS",
+      "systems" : [
+        "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
+      ],
+      "oids" : ["1.2.250.1.213.1.1.5.661"],
+      "sources" : ["1.2.250.1.213.1.1.5.661"]
+    },
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "JDV_J15_ClasseAge_ROR",
+      "title" : null,
+      "description" : "Classe d'âge - ROR",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.3"],
+      "sources" : ["1.2.250.1.213.3.4.3"]
+    }
+  ]
+}

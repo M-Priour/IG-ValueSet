@@ -1,0 +1,33 @@
+[
+  {
+    "id" : "ans.fhir.fr.ig-test",
+    "type" : "ImplementationGuide",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/ig-test/ImplementationGuide/ans.fhir.fr.ig-test",
+    "version" : "0.1.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "1.2.250.1.213.1.1.5.661",
+    "type" : "ValueSet",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/ig-test/ValueSet/1.2.250.1.213.1.1.5.661",
+    "version" : "0.1.0",
+    "name" : "JDV_AbsentOrUnknownAllergy_CISIS",
+    "oids" : ["1.2.250.1.213.1.1.5.661"]
+  },
+  {
+    "id" : "JDV-J15-ClasseAge-ROR",
+    "type" : "ValueSet",
+    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR",
+    "version" : "0.1.0",
+    "name" : "JDV_J15_ClasseAge_ROR",
+    "oids" : ["1.2.250.1.213.3.4.3"]
+  },
+  {
+    "id" : "TRE-R208-ClasseAge",
+    "type" : "CodeSystem",
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
+    "version" : "0.1.0",
+    "name" : "TRE_R208_ClasseAge",
+    "oids" : ["1.2.250.1.213.3.3.9"]
+  }
+]

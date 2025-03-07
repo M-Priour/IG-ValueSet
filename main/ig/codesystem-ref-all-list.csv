@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge,0.1.0,active,"1.2.250.1.213.3.3.9",TRE_R208_ClasseAge,,"Classe d'âge","ValueSet/JDV-J15-ClasseAge-ROR"

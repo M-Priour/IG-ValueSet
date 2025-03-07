@@ -1,0 +1,16 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "TRE_R208_ClasseAge",
+      "title" : null,
+      "description" : "Classe d'âge",
+      "oids" : ["1.2.250.1.213.3.3.9"],
+      "uses" : {
+      },
+      "ValueSet-JDV-J15-ClasseAge-ROR.html" : "JDV_J15_ClasseAge_ROR"
+    }
+  ]
+}
