@@ -1,13 +1,13 @@
 ExampleIG : Validation Results
 =========================================
 
-err = 5, warn = 7, info = 3
+err = 4, warn = 5, info = 3
 IG Publisher Version: 1.8.16
-Generated Fri Mar 07 16:36:17 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.ig-test#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/ig-test)
+Generated Fri Mar 07 16:42:12 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.ig-test#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/ig-test)
  Build Errors : 0 / 3 / 0
  /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/CodeSystem-TRE-R208-ClasseAge : 2 / 1 / 4
  /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.ig-test : 0 / 0 / 1
- /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ValueSet-1.2.250.1.213.1.1.5.661 : 1 / 2 / 1
+ /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ValueSet-1.2.250.1.213.1.1.5.661 : 0 / 0 / 1
  /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ValueSet-JDV-J15-ClasseAge-ROR : 2 / 1 / 1
 </table>
 == n/a ==
@@ -23,9 +23,6 @@ INFORMATION: CodeSystem/TRE-R208-ClasseAge: CodeSystem.property[2]: This propert
 ERROR: /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/CodeSystem-TRE-R208-ClasseAge: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/ig-test/CodeSystem/TRE-R208-ClasseAge vs https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.ig-test.json ==
 == fsh-generated/resources/ValueSet-1.2.250.1.213.1.1.5.661.json ==
-ERROR: ValueSet/1.2.250.1.213.1.1.5.661: ValueSet.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' does not resolve
-WARNING: ValueSet/1.2.250.1.213.1.1.5.661: ValueSet.compose.include[0]: Unknown System 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' could not be found, so the code cannot be validated)
-WARNING: ValueSet.where(id = '1.2.250.1.213.1.1.5.661'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 == fsh-generated/resources/ValueSet-JDV-J15-ClasseAge-ROR.json ==
 ERROR: ValueSet.where(url = 'https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR'): Conformance resource /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ValueSet-JDV-J15-ClasseAge-ROR.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/ig-test/ValueSet/JDV-J15-ClasseAge-ROR) does not match the URL (https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR)
 WARNING: ValueSet/JDV-J15-ClasseAge-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present

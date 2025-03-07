@@ -1,11 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f6d3e7d9-500a-4e05-b59c-434340175431"/>
+  <id value="ebb448b3-18a0-496a-815b-52ed64c44d2d"/>
   <meta>
-    <lastUpdated value="2025-03-07T16:36:04.344+00:00"/>
+    <lastUpdated value="2025-03-07T16:41:56.419+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/ig-test/ValueSet/1.2.250.1.213.1.1.5.661"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <versionId value="4"/>
+          <lastUpdated value="2024-12-19T05:02:07.462+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html">codesystem Absent and Unknown Data - IPS v1.1.0 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-allergy-info"> </a>  
+                  <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-allergy-info">no-allergy-info</a>
+                </td>
+                <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
+                <td>Nessuna informazione sulle allergie</td>
+                <td>
+                  <div>
+                    <p>There is no information available regarding the subject's allergy conditions.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-allergies"> </a>  
+                  <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-allergies">no-known-allergies</a>
+                </td>
+                <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
+                <td>Nessuna allergia nota</td>
+                <td>
+                  <div>
+                    <p>The subject has no known allergy conditions.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-medication-allergies"> </a>  
+                  <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-medication-allergies">no-known-medication-allergies</a>
+                </td>
+                <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
+                <td>Nessuna allergia ai farmaci nota</td>
+                <td>
+                  <div>
+                    <p>The subject has no known medication allergy conditions.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-environmental-allergies"> </a>  
+                  <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-environmental-allergies">no-known-environmental-allergies</a>
+                </td>
+                <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
+                <td>Nessuna allergia nota ad allergeni ambientali</td>
+                <td>
+                  <div>
+                    <p>The subject has no known environmental allergy conditions.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-food-allergies"> </a>  
+                  <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-food-allergies">no-known-food-allergies</a>
+                </td>
+                <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
+                <td>Nessuna allergia alimentare nota</td>
+                <td>
+                  <div>
+                    <p>The subject has no known food allergy conditions.</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/ig-test/ValueSet/1.2.250.1.213.1.1.5.661"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:1.2.250.1.213.1.1.5.661"/>
+        </identifier>
+        <version value="0.1.0"/>
+        <name value="JDV_AbsentOrUnknownAllergy_CISIS"/>
+        <title value="JDV_AbsentOrUnknownAllergy_CISIS"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2021-12-22T00:00:00+01:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:80e70805-357a-4079-b998-29986fc30702"/>
+          <timestamp value="2025-03-07T16:42:03+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+            <code value="no-allergy-info"/>
+            <display value="Nessuna informazione sulle allergie"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+            <code value="no-known-allergies"/>
+            <display value="Nessuna allergia nota"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+            <code value="no-known-medication-allergies"/>
+            <display value="Nessuna allergia ai farmaci nota"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+            <code value="no-known-environmental-allergies"/>
+            <display value="Nessuna allergia nota ad allergeni ambientali"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+            <code value="no-known-food-allergies"/>
+            <display value="Nessuna allergia alimentare nota"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR"/>
     <resource>
@@ -122,8 +301,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ae0766d3-3fd7-4c6c-b7a9-3c1146322059"/>
-          <timestamp value="2025-03-07T16:36:10+00:00"/>
+          <identifier value="urn:uuid:25ed7564-2e6a-4773-8e19-4e4abea6743b"/>
+          <timestamp value="2025-03-07T16:42:03+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
