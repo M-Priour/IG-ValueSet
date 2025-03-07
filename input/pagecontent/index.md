@@ -3,15 +3,7 @@
 [Add a brief description of this IG in English]
 </p>
 
-{% if site.data.info.releaselabel == 'ci-build' %}
-<div style="width: 65%">
-    <blockquote class="stu-note">
-    <p>
-    <b>Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : http://interop.esante.gouv.fr/ig/fhir/[code - ig]
-    </p>
-    </blockquote>
-</div>
-{% endif %}
+
 
 <!--  A décommenter si CI-SIS
 <div class="figure">
