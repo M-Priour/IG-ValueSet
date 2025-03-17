@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "2a0bd218-c0de-46d5-aa44-910e346d4a66",
+  "id" : "6c48ce04-7043-45f7-a299-442ed9fc1183",
   "meta" : {
-    "lastUpdated" : "2025-03-17T10:31:46.005+00:00"
+    "lastUpdated" : "2025-03-17T10:32:38.034+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -38,8 +38,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c3d79723-50a5-4e32-91ff-7fc3e04ce5cb",
-        "timestamp" : "2025-03-17T10:31:57+00:00",
+        "identifier" : "urn:uuid:a1c7baf7-7e90-48f6-9127-647f549649b2",
+        "timestamp" : "2025-03-17T10:32:52+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -99,10 +99,9 @@
         "lastUpdated" : "2024-04-27T05:06:50.688+00:00",
         "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
       },
-      "language" : "fr-FR",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-FR\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-TRE-R208-ClasseAge.html\">codesystem TRE_R208_ClasseAge v0.1.0 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 8 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (fr-FR)</b> - French (France) (fr)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-01\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-01\">01</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Nouveau né, jusqu'à 28 jours</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-02\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-02\">02</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Nourrisson, avant 2 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-03\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-03\">03</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Enfant, avant 12 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-04\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-04\">04</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Adolescent, avant 16 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-05\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-05\">05</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Jeune adulte, 16-21 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-06\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-06\">06</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Adulte, avant 65 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-10\">10</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Sénior, 65-75 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-11\">11</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Sénior, 75 ans et plus</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-TRE-R208-ClasseAge.html\">codesystem TRE_R208_ClasseAge v0.1.0 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 8 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (fr-FR)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-01\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-01\">01</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Nouveau né, &lt;= 28 jr</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-02\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-02\">02</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Nourrisson, &lt; 2 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-03\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-03\">03</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Enfant, &lt; 12 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-04\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-04\">04</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Adolescent, &lt; 16 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-05\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-05\">05</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Adulte, 16-21 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-06\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-06\">06</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Adulte, &lt; 65 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-10\">10</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-11\">11</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Sénior, &gt; 75 ans</td></tr></table></div>"
       },
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR",
       "identifier" : [{
@@ -122,8 +121,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:df460fc5-69db-4604-8b81-28e12b965e95",
-        "timestamp" : "2025-03-17T10:31:58+00:00",
+        "identifier" : "urn:uuid:26b3cc3e-41e7-4dcc-a6a2-d8f57adca1ee",
+        "timestamp" : "2025-03-17T10:32:52+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -149,42 +148,41 @@
         "contains" : [{
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "01",
-          "display" : "Nouveau né, jusqu'à 28 jours"
+          "display" : "Nouveau né, <= 28 jr"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "02",
-          "display" : "Nourrisson, avant 2 ans"
+          "display" : "Nourrisson, < 2 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "03",
-          "display" : "Enfant, avant 12 ans"
+          "display" : "Enfant, < 12 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "04",
-          "display" : "Adolescent, avant 16 ans"
+          "display" : "Adolescent, < 16 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "05",
-          "display" : "Jeune adulte, 16-21 ans"
+          "display" : "Adulte, 16-21 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "06",
-          "display" : "Adulte, avant 65 ans"
+          "display" : "Adulte, < 65 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
-          "code" : "10",
-          "display" : "Sénior, 65-75 ans"
+          "code" : "10"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "11",
-          "display" : "Sénior, 75 ans et plus"
+          "display" : "Sénior, > 75 ans"
         }]
       }
     }
