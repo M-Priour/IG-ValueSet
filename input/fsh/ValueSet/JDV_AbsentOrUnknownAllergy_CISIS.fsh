@@ -4,6 +4,7 @@ ValueSet: JDV_AbsentOrUnknownAllergy_CISIS
 Id: 1.2.250.1.213.1.1.5.661
 Title: "JDV_AbsentOrUnknownAllergy_CISIS"
 Description: "JDV_AbsentOrUnknownAllergy_CISIS"
+* ^language = #fr-FR
 * ^meta.versionId = "4"
 * ^meta.lastUpdated = "2024-12-19T05:02:07.462+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
