@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="6c48ce04-7043-45f7-a299-442ed9fc1183"/>
+  <id value="25253866-7b4d-40fe-bf4d-755574cb336b"/>
   <meta>
-    <lastUpdated value="2025-03-17T10:32:38.034+00:00"/>
+    <lastUpdated value="2025-03-17T12:36:41.356+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -133,8 +133,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a1c7baf7-7e90-48f6-9127-647f549649b2"/>
-          <timestamp value="2025-03-17T10:32:52+00:00"/>
+          <identifier value="urn:uuid:9ceaa01b-52f2-49a7-b3a6-bbb2e81298f8"/>
+          <timestamp value="2025-03-17T12:36:53+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -195,9 +195,10 @@
           <lastUpdated value="2024-04-27T05:06:50.688+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
         </meta>
+        <language value="fr-FR"/>
         <text>
           <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR">
             <p class="res-header-id">
               <b>ValueSet </b>
             </p>
@@ -214,7 +215,7 @@
                   <b>Système</b>
                 </td>
                 <td>
-                  <b>Display (fr-FR)</b>
+                  <b>Display (fr-FR)</b> - French (France) (fr)
                 </td>
               </tr>
               <tr>
@@ -223,7 +224,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-01">01</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Nouveau né, &lt;= 28 jr</td>
+                <td>Nouveau né, jusqu'à 28 jours</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -231,7 +232,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-02">02</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Nourrisson, &lt; 2 ans</td>
+                <td>Nourrisson, avant 2 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -239,7 +240,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-03">03</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Enfant, &lt; 12 ans</td>
+                <td>Enfant, avant 12 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -247,7 +248,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-04">04</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Adolescent, &lt; 16 ans</td>
+                <td>Adolescent, avant 16 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -255,7 +256,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-05">05</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Adulte, 16-21 ans</td>
+                <td>Jeune adulte, 16-21 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -263,7 +264,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-06">06</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Adulte, &lt; 65 ans</td>
+                <td>Adulte, avant 65 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -271,7 +272,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-10">10</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td/>
+                <td>Sénior, 65-75 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -279,7 +280,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-11">11</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Sénior, &gt; 75 ans</td>
+                <td>Sénior, 75 ans et plus</td>
               </tr>
             </table>
           </div>
@@ -302,8 +303,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:26b3cc3e-41e7-4dcc-a6a2-d8f57adca1ee"/>
-          <timestamp value="2025-03-17T10:32:52+00:00"/>
+          <identifier value="urn:uuid:60394ab1-e086-4e1e-b063-c655dc802829"/>
+          <timestamp value="2025-03-17T12:36:53+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -329,41 +330,42 @@
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="01"/>
-            <display value="Nouveau né, &lt;= 28 jr"/>
+            <display value="Nouveau né, jusqu'à 28 jours"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="02"/>
-            <display value="Nourrisson, &lt; 2 ans"/>
+            <display value="Nourrisson, avant 2 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="03"/>
-            <display value="Enfant, &lt; 12 ans"/>
+            <display value="Enfant, avant 12 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="04"/>
-            <display value="Adolescent, &lt; 16 ans"/>
+            <display value="Adolescent, avant 16 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="05"/>
-            <display value="Adulte, 16-21 ans"/>
+            <display value="Jeune adulte, 16-21 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="06"/>
-            <display value="Adulte, &lt; 65 ans"/>
+            <display value="Adulte, avant 65 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="10"/>
+            <display value="Sénior, 65-75 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="11"/>
-            <display value="Sénior, &gt; 75 ans"/>
+            <display value="Sénior, 75 ans et plus"/>
           </contains>
         </expansion>
       </ValueSet>
