@@ -3,6 +3,7 @@ Alias: $TRE-R208-ClasseAge = https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/F
 ValueSet: JDV_J15_ClasseAge_ROR
 Id: JDV-J15-ClasseAge-ROR
 Description: "Classe d'âge - ROR"
+* ^language = #fr-FR
 * ^meta.versionId = "3"
 * ^meta.lastUpdated = "2024-04-27T05:06:50.688+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
