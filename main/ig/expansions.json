@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "c94ff4a8-a3c7-4f0e-90c0-64116ac8e13a",
+  "id" : "2a0bd218-c0de-46d5-aa44-910e346d4a66",
   "meta" : {
-    "lastUpdated" : "2025-03-07T16:49:03.027+00:00"
+    "lastUpdated" : "2025-03-17T10:31:46.005+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -14,9 +14,10 @@
         "lastUpdated" : "2024-12-19T05:02:07.462+00:00",
         "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
       },
+      "language" : "fr-FR",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html\">codesystem Absent and Unknown Data - IPS v1.1.0 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 5 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (fr-FR)</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-allergy-info\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-allergy-info\">no-allergy-info</a></td><td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td><td>Nessuna informazione sulle allergie</td><td><div><p>There is no information available regarding the subject's allergy conditions.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-allergies\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-allergies\">no-known-allergies</a></td><td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td><td>Nessuna allergia nota</td><td><div><p>The subject has no known allergy conditions.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-medication-allergies\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-medication-allergies\">no-known-medication-allergies</a></td><td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td><td>Nessuna allergia ai farmaci nota</td><td><div><p>The subject has no known medication allergy conditions.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-environmental-allergies\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-environmental-allergies\">no-known-environmental-allergies</a></td><td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td><td>Nessuna allergia nota ad allergeni ambientali</td><td><div><p>The subject has no known environmental allergy conditions.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-food-allergies\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-food-allergies\">no-known-food-allergies</a></td><td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td><td>Nessuna allergia alimentare nota</td><td><div><p>The subject has no known food allergy conditions.</p>\n</div></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-FR\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html\">codesystem Absent and Unknown Data - IPS v1.1.0 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 5 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (fr-FR)</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-allergy-info\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-allergy-info\">no-allergy-info</a></td><td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td><td>Pas d’information sur les allergies/hypersensibilités</td><td><div><p>There is no information available regarding the subject's allergy conditions.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-allergies\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-allergies\">no-known-allergies</a></td><td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td><td>Pas d'allergie/hypersensibilité connue</td><td><div><p>The subject has no known allergy conditions.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-medication-allergies\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-medication-allergies\">no-known-medication-allergies</a></td><td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td><td>Pas d'allergie médicamenteuse connue</td><td><div><p>The subject has no known medication allergy conditions.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-environmental-allergies\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-environmental-allergies\">no-known-environmental-allergies</a></td><td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td><td>Pas d'allergie environnementale connue</td><td><div><p>The subject has no known environmental allergy conditions.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips-no-known-food-allergies\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-food-allergies\">no-known-food-allergies</a></td><td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td><td>Pas d'allergie alimentaire connue</td><td><div><p>The subject has no known food allergy conditions.</p>\n</div></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/ig-test/ValueSet/1.2.250.1.213.1.1.5.661",
       "identifier" : [{
@@ -37,8 +38,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c95a9e7c-ae7a-4a54-adec-7c842f94fd8c",
-        "timestamp" : "2025-03-07T16:49:10+00:00",
+        "identifier" : "urn:uuid:c3d79723-50a5-4e32-91ff-7fc3e04ce5cb",
+        "timestamp" : "2025-03-17T10:31:57+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -64,27 +65,27 @@
         "contains" : [{
           "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
           "code" : "no-allergy-info",
-          "display" : "Nessuna informazione sulle allergie"
+          "display" : "Pas d’information sur les allergies/hypersensibilités"
         },
         {
           "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
           "code" : "no-known-allergies",
-          "display" : "Nessuna allergia nota"
+          "display" : "Pas d'allergie/hypersensibilité connue"
         },
         {
           "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
           "code" : "no-known-medication-allergies",
-          "display" : "Nessuna allergia ai farmaci nota"
+          "display" : "Pas d'allergie médicamenteuse connue"
         },
         {
           "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
           "code" : "no-known-environmental-allergies",
-          "display" : "Nessuna allergia nota ad allergeni ambientali"
+          "display" : "Pas d'allergie environnementale connue"
         },
         {
           "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
           "code" : "no-known-food-allergies",
-          "display" : "Nessuna allergia alimentare nota"
+          "display" : "Pas d'allergie alimentaire connue"
         }]
       }
     }
@@ -98,9 +99,10 @@
         "lastUpdated" : "2024-04-27T05:06:50.688+00:00",
         "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
       },
+      "language" : "fr-FR",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-TRE-R208-ClasseAge.html\">codesystem TRE_R208_ClasseAge v0.1.0 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 8 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (fr-FR)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-01\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-01\">01</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Nouveau né, &lt;= 28 jr</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-02\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-02\">02</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Nourrisson, &lt; 2 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-03\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-03\">03</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Enfant, &lt; 12 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-04\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-04\">04</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Adolescent, &lt; 16 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-05\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-05\">05</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Adulte, 16-21 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-06\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-06\">06</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Adulte, &lt; 65 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-10\">10</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-11\">11</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Sénior, &gt; 75 ans</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-FR\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-TRE-R208-ClasseAge.html\">codesystem TRE_R208_ClasseAge v0.1.0 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 8 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (fr-FR)</b> - French (France) (fr)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-01\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-01\">01</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Nouveau né, jusqu'à 28 jours</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-02\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-02\">02</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Nourrisson, avant 2 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-03\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-03\">03</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Enfant, avant 12 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-04\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-04\">04</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Adolescent, avant 16 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-05\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-05\">05</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Jeune adulte, 16-21 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-06\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-06\">06</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Adulte, avant 65 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-10\">10</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Sénior, 65-75 ans</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-11\">11</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td><td>Sénior, 75 ans et plus</td></tr></table></div>"
       },
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR",
       "identifier" : [{
@@ -120,8 +122,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0bee59a5-cde8-4065-8302-cdcf2a477379",
-        "timestamp" : "2025-03-07T16:49:10+00:00",
+        "identifier" : "urn:uuid:df460fc5-69db-4604-8b81-28e12b965e95",
+        "timestamp" : "2025-03-17T10:31:58+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -147,41 +149,42 @@
         "contains" : [{
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "01",
-          "display" : "Nouveau né, <= 28 jr"
+          "display" : "Nouveau né, jusqu'à 28 jours"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "02",
-          "display" : "Nourrisson, < 2 ans"
+          "display" : "Nourrisson, avant 2 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "03",
-          "display" : "Enfant, < 12 ans"
+          "display" : "Enfant, avant 12 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "04",
-          "display" : "Adolescent, < 16 ans"
+          "display" : "Adolescent, avant 16 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "05",
-          "display" : "Adulte, 16-21 ans"
+          "display" : "Jeune adulte, 16-21 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "06",
-          "display" : "Adulte, < 65 ans"
+          "display" : "Adulte, avant 65 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
-          "code" : "10"
+          "code" : "10",
+          "display" : "Sénior, 65-75 ans"
         },
         {
           "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
           "code" : "11",
-          "display" : "Sénior, > 75 ans"
+          "display" : "Sénior, 75 ans et plus"
         }]
       }
     }

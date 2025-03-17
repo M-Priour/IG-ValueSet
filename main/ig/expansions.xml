@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c94ff4a8-a3c7-4f0e-90c0-64116ac8e13a"/>
+  <id value="2a0bd218-c0de-46d5-aa44-910e346d4a66"/>
   <meta>
-    <lastUpdated value="2025-03-07T16:49:03.027+00:00"/>
+    <lastUpdated value="2025-03-17T10:31:46.005+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -15,9 +15,10 @@
           <lastUpdated value="2024-12-19T05:02:07.462+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
         </meta>
+        <language value="fr-FR"/>
         <text>
           <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR">
             <p class="res-header-id">
               <b>ValueSet </b>
             </p>
@@ -46,7 +47,7 @@
                   <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-allergy-info">no-allergy-info</a>
                 </td>
                 <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
-                <td>Nessuna informazione sulle allergie</td>
+                <td>Pas d’information sur les allergies/hypersensibilités</td>
                 <td>
                   <div>
                     <p>There is no information available regarding the subject's allergy conditions.</p>
@@ -60,7 +61,7 @@
                   <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-allergies">no-known-allergies</a>
                 </td>
                 <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
-                <td>Nessuna allergia nota</td>
+                <td>Pas d'allergie/hypersensibilité connue</td>
                 <td>
                   <div>
                     <p>The subject has no known allergy conditions.</p>
@@ -74,7 +75,7 @@
                   <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-medication-allergies">no-known-medication-allergies</a>
                 </td>
                 <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
-                <td>Nessuna allergia ai farmaci nota</td>
+                <td>Pas d'allergie médicamenteuse connue</td>
                 <td>
                   <div>
                     <p>The subject has no known medication allergy conditions.</p>
@@ -88,7 +89,7 @@
                   <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-environmental-allergies">no-known-environmental-allergies</a>
                 </td>
                 <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
-                <td>Nessuna allergia nota ad allergeni ambientali</td>
+                <td>Pas d'allergie environnementale connue</td>
                 <td>
                   <div>
                     <p>The subject has no known environmental allergy conditions.</p>
@@ -102,7 +103,7 @@
                   <a href="http://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html#absent-unknown-uv-ips-no-known-food-allergies">no-known-food-allergies</a>
                 </td>
                 <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
-                <td>Nessuna allergia alimentare nota</td>
+                <td>Pas d'allergie alimentaire connue</td>
                 <td>
                   <div>
                     <p>The subject has no known food allergy conditions.</p>
@@ -132,8 +133,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c95a9e7c-ae7a-4a54-adec-7c842f94fd8c"/>
-          <timestamp value="2025-03-07T16:49:10+00:00"/>
+          <identifier value="urn:uuid:c3d79723-50a5-4e32-91ff-7fc3e04ce5cb"/>
+          <timestamp value="2025-03-17T10:31:57+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -159,27 +160,27 @@
           <contains>
             <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
             <code value="no-allergy-info"/>
-            <display value="Nessuna informazione sulle allergie"/>
+            <display value="Pas d’information sur les allergies/hypersensibilités"/>
           </contains>
           <contains>
             <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
             <code value="no-known-allergies"/>
-            <display value="Nessuna allergia nota"/>
+            <display value="Pas d'allergie/hypersensibilité connue"/>
           </contains>
           <contains>
             <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
             <code value="no-known-medication-allergies"/>
-            <display value="Nessuna allergia ai farmaci nota"/>
+            <display value="Pas d'allergie médicamenteuse connue"/>
           </contains>
           <contains>
             <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
             <code value="no-known-environmental-allergies"/>
-            <display value="Nessuna allergia nota ad allergeni ambientali"/>
+            <display value="Pas d'allergie environnementale connue"/>
           </contains>
           <contains>
             <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
             <code value="no-known-food-allergies"/>
-            <display value="Nessuna allergia alimentare nota"/>
+            <display value="Pas d'allergie alimentaire connue"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -194,9 +195,10 @@
           <lastUpdated value="2024-04-27T05:06:50.688+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
         </meta>
+        <language value="fr-FR"/>
         <text>
           <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR">
             <p class="res-header-id">
               <b>ValueSet </b>
             </p>
@@ -213,7 +215,7 @@
                   <b>Système</b>
                 </td>
                 <td>
-                  <b>Display (fr-FR)</b>
+                  <b>Display (fr-FR)</b> - French (France) (fr)
                 </td>
               </tr>
               <tr>
@@ -222,7 +224,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-01">01</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Nouveau né, &lt;= 28 jr</td>
+                <td>Nouveau né, jusqu'à 28 jours</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -230,7 +232,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-02">02</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Nourrisson, &lt; 2 ans</td>
+                <td>Nourrisson, avant 2 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -238,7 +240,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-03">03</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Enfant, &lt; 12 ans</td>
+                <td>Enfant, avant 12 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -246,7 +248,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-04">04</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Adolescent, &lt; 16 ans</td>
+                <td>Adolescent, avant 16 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -254,7 +256,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-05">05</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Adulte, 16-21 ans</td>
+                <td>Jeune adulte, 16-21 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -262,7 +264,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-06">06</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Adulte, &lt; 65 ans</td>
+                <td>Adulte, avant 65 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -270,7 +272,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-10">10</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td/>
+                <td>Sénior, 65-75 ans</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -278,7 +280,7 @@
                   <a href="CodeSystem-TRE-R208-ClasseAge.html#TRE-R208-ClasseAge-11">11</a>
                 </td>
                 <td>https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge</td>
-                <td>Sénior, &gt; 75 ans</td>
+                <td>Sénior, 75 ans et plus</td>
               </tr>
             </table>
           </div>
@@ -301,8 +303,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0bee59a5-cde8-4065-8302-cdcf2a477379"/>
-          <timestamp value="2025-03-07T16:49:10+00:00"/>
+          <identifier value="urn:uuid:df460fc5-69db-4604-8b81-28e12b965e95"/>
+          <timestamp value="2025-03-17T10:31:58+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -328,41 +330,42 @@
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="01"/>
-            <display value="Nouveau né, &lt;= 28 jr"/>
+            <display value="Nouveau né, jusqu'à 28 jours"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="02"/>
-            <display value="Nourrisson, &lt; 2 ans"/>
+            <display value="Nourrisson, avant 2 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="03"/>
-            <display value="Enfant, &lt; 12 ans"/>
+            <display value="Enfant, avant 12 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="04"/>
-            <display value="Adolescent, &lt; 16 ans"/>
+            <display value="Adolescent, avant 16 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="05"/>
-            <display value="Adulte, 16-21 ans"/>
+            <display value="Jeune adulte, 16-21 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="06"/>
-            <display value="Adulte, &lt; 65 ans"/>
+            <display value="Adulte, avant 65 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="10"/>
+            <display value="Sénior, 65-75 ans"/>
           </contains>
           <contains>
             <system value="https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge"/>
             <code value="11"/>
-            <display value="Sénior, &gt; 75 ans"/>
+            <display value="Sénior, 75 ans et plus"/>
           </contains>
         </expansion>
       </ValueSet>

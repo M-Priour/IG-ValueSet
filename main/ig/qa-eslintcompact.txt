@@ -11,8 +11,8 @@ Generic: line 0, col 0, Warning - The IG is not for the international realm, and
 /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/CodeSystem-TRE-R208-ClasseAge.json: line 1, col 7165, Info - This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem (BUSINESSRULE)
 /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/CodeSystem-TRE-R208-ClasseAge.json: line 0, col 0, Error - URL Mismatch https://interop.esante.gouv.fr/ig/fhir/ig-test/CodeSystem/TRE-R208-ClasseAge vs https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge (BUSINESSRULE)
 /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ValueSet-JDV-J15-ClasseAge-ROR.json: line 0, col 0, Error - Conformance resource /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ValueSet-JDV-J15-ClasseAge-ROR.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/ig-test/ValueSet/JDV-J15-ClasseAge-ROR) does not match the URL (https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR) (INVALID)
-/home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ValueSet-JDV-J15-ClasseAge-ROR.json: line 1, col 3509, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present (REQUIRED)
+/home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ValueSet-JDV-J15-ClasseAge-ROR.json: line 1, col 3579, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present (REQUIRED)
 /home/runner/work/IG-ValueSet/IG-ValueSet/igSource/fsh-generated/resources/ValueSet-JDV-J15-ClasseAge-ROR.json: line 0, col 0, Error - URL Mismatch https://interop.esante.gouv.fr/ig/fhir/ig-test/ValueSet/JDV-J15-ClasseAge-ROR vs https://mos.esante.gouv.fr/NOS/JDV_J15-ClasseAge-ROR/FHIR/JDV-J15-ClasseAge-ROR (BUSINESSRULE)
 
 err = 4, warn = 5, info = 3
-IG Publisher Version: 1.8.16
+IG Publisher Version: 1.8.21
